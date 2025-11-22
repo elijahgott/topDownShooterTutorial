@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl3op2fio23el"]
+
+[ext_resource type="PackedScene" uid="uid://eugi4rte6e8v" path="res://baseGun.tscn" id="1_sh1sg"]
+[ext_resource type="Texture2D" uid="uid://bwhmk06ck7f8y" path="res://pistol/machine_gun.png" id="2_o2j60"]
+
+[node name="MachineGun" instance=ExtResource("1_sh1sg")]
+
+[node name="Gun" parent="WeaponPivot" index="0"]
+position = Vector2(99, 0)
+scale = Vector2(0.08457029, 0.097222224)
+texture = ExtResource("2_o2j60")
+
+[node name="ShootingPoint" parent="WeaponPivot/Gun" index="0"]
+position = Vector2(774.4294, -57.142773)
+
+[node name="Timer" parent="." index="2"]
+wait_time = 0.2

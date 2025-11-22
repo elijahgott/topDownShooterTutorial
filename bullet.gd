@@ -1,0 +1,20 @@
+extends Area2D
+
+var travelledDistance = 0
+
+func _physics_process(delta: float) -> void:
+	const SPEED = 1500
+	const MAX_RANGE = 1200
+	
+	var direction = Vector2.RIGHT.rotated(rotation)
+	position += direction * SPEED * delta # delta makes bullet time dependent
+	
+	travelledDistance += SPEED * delta
+	if(travelledDistance >= MAX_RANGE):
+		queue_free()
+
+
+func _on_body_entered(body: Node2D) -> void:
+	queue_free()
+	if(body.has_method("takeDamage")):
+		body.takeDamage()
