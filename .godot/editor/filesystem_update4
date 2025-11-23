@@ -1,6 +1,4 @@
-res://pistol.tscn
-res://pistol.gd
+res://survivorsGame.tscn
+res://survivors_game.gd
 res://player.tscn
 res://player.gd
-res://baseGun.tscn
-res://machine_gun.tscn

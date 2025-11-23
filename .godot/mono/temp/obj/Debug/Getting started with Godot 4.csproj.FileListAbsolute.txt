@@ -15,3 +15,4 @@ D:\Godot\Godot Projects\topdownshooter_tutorial\.godot\mono\temp\obj\Debug\refin
 D:\Godot\Godot Projects\topdownshooter_tutorial\.godot\mono\temp\obj\Debug\Getting started with Godot 4.pdb
 D:\Godot\Godot Projects\topdownshooter_tutorial\.godot\mono\temp\obj\Debug\Getting started with Godot 4.genruntimeconfig.cache
 D:\Godot\Godot Projects\topdownshooter_tutorial\.godot\mono\temp\obj\Debug\ref\Getting started with Godot 4.dll
+D:\Godot\Godot Projects\topdownshooter_tutorial\.godot\mono\temp\obj\Debug\Getting started with Godot 4.sourcelink.json

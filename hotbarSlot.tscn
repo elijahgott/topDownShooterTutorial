@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://g2i1in4ah82i"]
+
+[ext_resource type="Texture2D" uid="uid://cjlk2vy1s5s6b" path="res://hotbar/hotbar_slot.png" id="1_82mw0"]
+
+[node name="Slot" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(20, 20)
+offset_right = 20.0
+offset_bottom = 20.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_82mw0")
+centered = false
+hframes = 2

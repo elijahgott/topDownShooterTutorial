@@ -1,14 +1,14 @@
+Sprite2D
+Panel
+Label      - Matches the "text" keyword.
+CanvasLayer
+CenterContainer
+Button
+HBoxContainer
 Node
 Area2D
 Label
 ColorRect
-CanvasLayer
 Timer
 PathFollow2D
 Path2D
-ProgressBar
-CollisionShape2D
-Marker2D
-Camera2D
-CharacterBody2D
-StaticBody2D
